@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(213, 225, 225);
+
+}
+
+header {
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	line-height: 45px;
+	color: #0000FF;
+}
+
+section {
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+section div {
+	width: 20%;
+	height: inherit;
+	background-color: rgb(213, 225, 225);
+	padding: 40px;
+	letter-spacing: 3px;
+}
+
+#cav {
+	background-color: white;
+	display: block;
+}
+
+#reset {
+	width: 60px;
+	height: 30px;
+	background-color: white;
+	border: none;
+
+}
